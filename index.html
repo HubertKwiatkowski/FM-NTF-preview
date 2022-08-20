@@ -3,24 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
   <title>Frontend Mentor | NFT preview card component</title>
   <link rel="stylesheet" href="style.css">
-  
+
 </head>
 <body>
+  <main>
+    
+  </main>
   <div class="item">
-    <div class="image"></div>
+    <div class="equilibrium-image">
+      <div class="eye">
+      </div>
+    </div>
+    
     <div class="description">
       <h1>Equilibrium #3429</h1>
-      <p>Our Equilibrium collection promotes balance and calm.</p>
+      <p class="description-text">Our Equilibrium collection promotes balance and calm.</p>
+      
       <div class="offer">
-        <div class="price">0.041 ETH</div>
-        <div class="time-left">3 days left</div>
+        <div class="price">
+          <img class="ethereum" src="images/icon-ethereum.svg" alt="ethereum">
+          <p>0.041 ETH</p></div>
+        <div class="time-left">
+          <img class="clock" src="images/icon-clock.svg" alt="clock">
+          <p>3 days left</p>
+        </div>
       </div>
-      <div class="creator">Creation of Jules Wyvern</div>
+
+      <div class="line"></div>
+
+      <div class="creator">
+        <div class="avatar-image"></div>
+        <div class="creator-name"><p>Creation of <span>Jules Wyvern</p></span></div></div>
     </div>
   </div>
 </body>
